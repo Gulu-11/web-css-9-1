@@ -1,0 +1,807 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.fullMainDiv {
+    display: flex;
+}
+.asideConteiner {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    max-width: 296px;
+    width: 100%;
+    background-color: #14171F;
+}
+.asideContentDiv {
+    display: flex;
+    flex-direction: column;
+    gap: 48px;
+    padding: 24px 24px 0 24px;
+}
+.siteLogoDiv {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    padding: 0 16px 16px 16px;
+    width: 248px;
+    border-bottom: 1px solid #3D414B;
+}
+a {
+    text-decoration: none;
+}
+.siteLogo {
+    width: 48px;
+    height: 48px;
+}
+.siteLogoDiv a {
+    color: white;
+    font-size: 24px;
+    font-weight: 800;
+}
+.andrioDiv {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 12px 0 12px 0;
+    border-top: 1px solid #7D70BD;
+    border-bottom: 1px solid #7D70BD;
+}
+.andriologoDiv {
+    display: flex;
+    gap: 8px;
+    align-items: center;
+}
+.andrioIcon {
+    width: 40px;
+    height: 40px;
+}
+.andrioTextDiv {
+    display: flex;
+    flex-direction: column;
+}
+.andrioName {
+    font-weight: 500;
+    color: white;
+}
+.statusText {
+    font-size: 14px;
+    color: #929699;
+}
+.arrowRight {
+    width: 24px;
+    height: 24px;
+}
+.menuListDiv {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.menuConteiner {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+.menuIcon {
+    width: 24px;
+    height: 24px;
+}
+.menuConteiner a {
+    color: #929699;
+}
+.analytics-sett-div {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+    max-width: 248px;
+    width: 100%;
+}
+.vectorDIv {
+    width: 248px;
+    height: 1px;
+    background-color: #24272E;
+    border: 1px solid #3D414B;
+}
+.anal-sett {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.settBtn {
+    width: 253px;
+    align-self: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 12px;
+    border: 1px solid #7B62FF;
+    border-radius: 8px;
+    background-color: unset;
+    padding: 12px 24px;
+}
+.exitIcon {
+    width: 24px;
+    height: 24px;
+}
+.settBtn a {
+    color: #7B62FF;
+}
+
+.mainDiv {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+    align-items: center;
+    width: 100%;
+}
+.burgerMenu {
+    width: 32px;
+    height: 32px;
+    border: 1px solid #C7C7C7;
+    border-radius: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    display: none;
+}
+.burgerIcon {
+    width: 20px;
+    height: 20px;
+}
+.headerMenu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1080px;
+    width: 100%;
+    margin-top: 24px;
+}
+.learningDiv {
+    display: flex;
+    align-items: center;
+    gap: 24px;
+}
+.learningDiv a {
+    color: #2F2F2F;
+}
+.becameTeacherDiv {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+.bell-search-icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 32px;
+    height: 32px;
+    background-color: #F7F7F7;
+    border-radius: 600px;
+}
+.search-bell {
+    width: 20px;
+    height: 20px;
+}
+.Teacher-classesBtn {
+    padding: 8px 12px;
+    border: 1px solid #C7C7C7;
+    border-radius: 50px;
+}
+.Teacher-classesBtn a {
+    font-size: 14px;
+    color: #2F2F2F;
+}
+
+.backgroundDiv {
+    display: flex;
+    max-width: 1080px;
+    width: 100%;
+    border: 1px solid #C7C7C7;
+    border-radius: 16px;
+    height: 228px;
+    padding-left: 40px;
+    align-items: center;
+}
+.backgroundDiv {
+    background-image: url("../images/background-image\ .png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.backgroundtext {
+    font-size: 40px;
+    font-weight: 600;
+    line-height: 48px;
+    max-width: 416px;
+    width: 100%;
+}
+.accList {
+    display: flex;
+    gap: 16px;
+    max-width: 1080px;
+    width: 100%;
+}
+
+.accListBtnDiv a {
+    font-size: 14px;
+    color: #2F2F2F;
+}
+.accListBtnDiv {
+    padding: 8px 16px;
+    border: 1px solid #C7C7C7;
+    border-radius: 50px;
+}
+.accList :hover {
+    background-color: #14171F;
+}
+.accListBtnDiv-black {
+    padding: 8px 16px;
+    border: 1px solid #3D414B;
+    border-radius: 50px;
+    background-color: #14171F;
+}
+.accListBtnDiv-black a {
+    font-size: 14px;
+    color: #FFFFFF;
+}
+
+.bigConteiner {
+    display: flex;
+    gap: 32px;
+    max-width: 1080px;
+    width: 100%;
+}
+.pers-infoDiv {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+    max-width: 702px;
+    width: 100%;
+}
+.formDiv {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    padding: 24px 16px;
+    border: 1px solid #C7C7C7;
+    border-radius: 16px;
+}
+.pers-info-text {
+    display: flex;
+    justify-content: space-between;
+    max-width: 670px;
+    width: 100%;
+}
+.persInfoText {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
+.persText {
+    font-weight: 500;
+    color: #14171F;
+}
+.Uploadtext {
+    font-size: 14px;
+    color: #666666;
+}
+.dot-3 {
+    width: 32px;
+    height: 32px;
+    background-color: #F7F7F7;
+    border-radius: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.dots {
+    width: 20px;
+    height: 20px;
+}
+.name-email-div {
+    display: flex;
+    justify-content: space-between;
+}
+.fullNameDiv {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    max-width: 327px;
+    width: 100%;
+}
+.labeltext {
+    font-weight: 500;
+    color: #2F2F2F;
+}
+#textInput {
+    padding: 12px 16px;
+    max-width: 327px;
+    width: 100%;
+    outline: none;
+    border: 1px solid #C7C7C7;
+    border-radius: 8px;
+    background-color: #F9FBFC;
+}
+::placeholder {
+    font-size: 14px;
+    color: #666666;
+}
+.hoverInpDiv :hover {
+    background-color: tomato;
+}
+
+.emailDiv {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    max-width: 327px;
+    width: 100%;
+}
+#emailInput {
+    padding: 12px 16px;
+    max-width: 327px;
+    width: 100%;
+    outline: none;
+    border: 1px solid #7B62FF;
+    border-radius: 8px;
+    background-color: #E6E1FF;
+}
+
+.number-date-div {
+    display: flex;
+    justify-content: space-between;
+}
+.numberDiv {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+.tell-div {
+    display: flex;
+    gap: 8px;
+}
+.form-1 {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+#firstNumber {
+    color: #FFFFFF;
+    width: 68px;
+    padding: 12px 16px;
+    border: 1px solid #C7C7C7;
+    border-radius: 8px;
+    background-color: #14171F;
+}
+#numberInput {
+    padding: 12px 16px;
+    width: 251px;
+    border: 1px solid #C7C7C7;
+    border-radius: 8px;
+    background-color: #F9FBFC;
+}
+.dateDiv {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    max-width: 327px;
+    width: 100%;
+}
+#dateInput {
+    padding: 12px 16px;
+    border: 1px solid #C7C7C7;
+    border-radius: 8px;
+    background-color: #F9FBFC;
+}
+.savebtn {
+    display: flex;
+    justify-content: flex-end;
+}
+#submitInput {
+    padding: 10px 24px;
+    background-color: #7F56D9;
+    border: none;
+    border-radius: 8px;
+    color: #FFFFFF;
+    font-weight: 600;
+    width: 104px;
+    height: 44px;
+}
+
+.personal-additional-div {
+    display: flex;
+    justify-content: space-between;
+}
+.personalInfoDiv {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    max-width: 432px;
+    width: 100%;
+    padding: 24px 16px;
+    border: 1px solid #C7C7C7;
+    border-radius: 16px;
+}
+.personalText {
+    font-weight: 500;
+    color: #14171F;
+}
+.editDiv {
+    display: flex;
+    flex-direction: column;
+    padding: 16px;
+}
+.edits-div {
+    display: flex;
+    justify-content: space-between;
+}
+.editContentDiv {
+    display: flex;
+    gap: 12px;
+    height: 76px;
+}
+.editIconDiv {
+    width: 32px;
+    height: 32px;
+    border: 1px solid #C7C7C7;
+    border-radius: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.editIcon {
+    width: 20px;
+    height: 20px;
+}
+.editNameDiv {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
+.editFirstName {
+    font-size: 14px;
+    color: #666666;
+}
+.editLastName {
+    font-weight: 500;
+    color: #14171F;
+}
+.additionalInfoDiv {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    padding: 24px 16px;
+    border: 1px solid #C7C7C7;
+    border-radius: 16px;
+    max-width: 246px;
+    width: 100%;
+}
+.addit-edit-div {
+    display: flex;
+    justify-content: space-between;
+    width: 214px;
+    align-items: center;
+}
+.addit-edit-div p {
+    font-weight: 500;
+    color: #14171F;
+}
+.form-2 {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+.resumeDiv {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+#secondTextInput {
+    padding: 12px 16px;
+    border: 1px solid #C7C7C7;
+    border-radius: 8px;
+    background-color: #F9FBFC;
+    outline: none;
+}
+.linksDiv {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+.links-select {
+    padding: 12px 16px;
+    border: 1px solid #C7C7C7;
+    border-radius: 8px;
+    background-color: #F9FBFC;
+    font-size: 14px;
+    color: #666666;
+    width: 100%;
+}
+
+.linkOptions :hover {
+    background-color: #D2F0FF;
+}
+.select-link-div {
+    display: flex;
+    gap: 8px;
+}
+#linktextinput {
+    width: 84px;
+    height: 48px;
+    padding: 12px 16px;
+    border: 1px solid #C7C7C7;
+    border-radius: 8px;
+    background-color: #F9FBFC;
+    outline: none;
+}
+.andrioMainDiv {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    background-color: #14171F;
+    border-radius: 16px;
+    padding: 16px;
+}
+
+.andrioProfileDiv {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    padding: 16px;
+    border-radius: 12px;
+    background-color: #FFFFFF;
+}
+.profilePictureDiv {
+    display: flex;
+    justify-content: space-between;
+}
+.profIcons {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+.andrioPictureDiv {
+    width: 124px;
+    height: 124px;
+    background-image: url("../images/profileImg.png");
+    background-position: center,;
+    background-repeat: no-repeat,;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.photoIcon {
+    width: 32px;
+    height: 32px;
+}
+.richardDiv {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+.richardDiv p {
+    font-size: 24px;
+    font-weight: 500;
+    color: #2F2F2F;
+    text-align: center;
+}
+.statusBtn {
+    padding: 8px 12px;
+    border: 1px solid #C7C7C7;
+    border-radius: 50px;
+    width: 133px;
+    color: #2F2F2F;
+    font-size: 14px;
+    background-color: unset;
+}
+.statusBtnDiv {
+    display: flex;
+    gap: 16px;
+    justify-content: center;
+}
+.mainLocation-aboutDiv {
+    display: flex;
+    padding: 16px;
+    border-radius: 12px;
+    background-color: #FFFFFF;
+    width: 100%;
+}
+.location-aboutDiv {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+.location-aboutText {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    align-items: center;
+}
+.location-aboutText :first-child{
+    font-weight: 500;
+    color: #2F2F2F;
+}
+.location-aboutText :last-child {
+    font-size: 14px;
+    color: #2F2F2F;
+}
+.editIcon-2 {
+    width: 8px;
+    height: 8px;
+}
+.textareaAbout {
+    width: 282px;
+    height: 192px;
+    padding: 12px 16px;
+    border: 1px solid #C7C7C7;
+    border-radius: 8px;
+    resize: none;
+    font-size: 14px;
+    color: #666666;
+    line-height: 24px;
+}
+
+
+
+@media screen and (min-width: 768px) and (max-width: 1023px){
+    .burgerMenu {
+        display: flex;
+        margin-right: 12px;
+    }
+    .asideConteiner {
+        display: none;
+    }
+    .bigConteiner {
+        flex-direction: column;
+        align-items: center;
+        gap: 24px;
+    }
+    .andrioMainDiv {
+        order: -1;
+    }
+    .statusBtn {
+        width: 312px;
+    }
+    .location-aboutDiv {
+        width: 100%;
+    }
+    .location-aboutText {
+        width: 100%;
+    }
+    .links-select {
+        width: 100%;
+    }
+    .textareaAbout {
+        width: 100%;
+        height: 96px;
+    }
+    .fullMainDiv {
+        padding: 16px 32px 0 32px;
+    }
+    .accList {
+        flex-wrap: wrap;
+    }
+    .learningDiv {
+        gap: 12px;
+    }
+    .backgroundDiv {
+        background-image: url("../images/background\ image\ for\ tablet\ .png");
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+    .mainDiv {
+        gap: 24px;
+    }
+    .personalInfoDiv {
+        gap: 24px;
+    }
+}
+
+@media screen and (max-width: 767px){
+    .burgerMenu {
+        display: flex;
+    }
+    .asideConteiner {
+        display: none;
+    }
+    .bigConteiner {
+        flex-direction: column;
+        align-items: center;
+        gap: 24px;
+    }
+    .accList {
+        flex-wrap: wrap;
+    }
+    .backgroundDiv {
+        background-image: url("../images/background\ img\ for\ mobile.png");
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+    .backgroundDiv {
+        max-width: 288px;
+        width: 100%;
+    }
+    .backgroundDiv {
+        justify-content: center;
+        padding: 0;
+    }
+    .backgroundtext {
+        font-size: 24px;
+        line-height: 32px;
+        max-width: 248px;
+        width: 100%;
+    }
+    .headerMenu {
+        flex-direction: column;
+        gap: 16px;
+        padding: 12px 16px;
+        margin: 0;
+    }
+    .learningDiv {
+        gap: 8px;
+    }
+    .becameTeacherDiv {
+        gap: 8px;
+    }
+    .Teacher-classesBtn {
+        padding: 4px 8px;
+    }
+    .Teacher-classesBtn a {
+        font-size: 12px;
+    }
+    .accList {
+        max-width: 288px;
+        width: 100%;
+    }
+
+    .andrioMainDiv {
+        order: -1;
+    }
+    .textareaAbout {
+        height: 328px;
+        width: fit-content;
+        max-width: 224px;
+        width: 100%;
+    }
+    .name-email-div {
+        flex-direction: column;
+        gap: 16px;
+    }
+    .number-date-div {
+        flex-direction: column;
+        gap: 16px;
+    }
+    .pers-infoDiv {
+        gap: 24px;
+        max-width: 288px;
+        width: 100%;
+    }
+    .personal-additional-div {
+        flex-direction: column;
+        gap: 24px;
+    }
+    .edits-div {
+        flex-direction: column;
+    }
+    .additionalInfoDiv {
+        gap: 24px;
+        max-width: 288px;
+        width: 100%;
+    }
+    .form-2 {
+        gap: 24px;
+    }
+    .personalInfoDiv {
+        max-width: 288px;
+        width: 100%;
+    }
+    .andrioMainDiv {
+        max-width: 288px;
+        width: 100%;
+    }
+    #numberInput {
+        max-width: 180px;
+        width: 100%;
+    }
+}
